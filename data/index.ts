@@ -76,7 +76,7 @@ export const projects = [
     des: "Storing everything for you and your academic needs. All in one place, supercharged by AI.",
     img: "/intellidrive.png",
     iconLists: ["/next.svg", "re.svg", "/tail.svg", "/ts.svg",  "/c.svg"],
-    link: "https://drive.stonewerner.com",
+    link: "https://intellidrive.xyz",
   },
   {
     id: 2,
