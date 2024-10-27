@@ -72,6 +72,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "ML Customer Churn Prediction",
+    des: "Machine learning model to predict customer churn for financial institutions.",
+    img: "/churn_thumbnail.jpg",
+    iconLists: ["/python.svg", "/pandas.svg", "/openai.svg", "/three.svg", "/gsap.svg"],
+    link: "https://customer-churn-ml-stone.streamlit.app/",
+  },
+  {
+    id: 2,
     title: "IntelliDrive - AI Storage",
     des: "Storing everything for you and your academic needs. All in one place, supercharged by AI.",
     img: "/intellidrive.png",
@@ -79,7 +87,7 @@ export const projects = [
     link: "https://intellidrive.xyz",
   },
   {
-    id: 2,
+    id: 3,
     title: "SASI Store",
     des: "My online merchandise store to raise funds for various causes my friends and I care about.",
     img: "/sasi_store_front.png",
@@ -87,21 +95,14 @@ export const projects = [
     link: "https://store.stonewerner.com",
   },
   {
-    id: 3,
+    id: 4,
     title: "AI Rate My Professor",
     des: "RAG-powered AI chatbot that allows users to query any information about their school's professors and courses.",
     img: "/rmp.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://github.com/stonewerner/rag-rmp",
   },
-  {
-    id: 4,
-    title: "Flashcard SaaS",
-    des: "A Software-as-a-Service app to quickly and easily generate and save flashcards on any topic.",
-    img: "/flashcard.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/stonewerner/flashcard-saas-2",
-  },
+  
 ];
 
 export const testimonials = [
