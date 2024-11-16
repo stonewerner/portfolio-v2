@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I am proficient developing in Windows, macOS, and Linux environments ",
+    title:
+      "I am proficient developing in Windows, macOS, and Linux environments ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -53,7 +54,8 @@ export const gridItems = [
     description: "The SASI Store",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center text-white",
+    titleClassName:
+      "justify-center md:justify-start lg:justify-center text-white",
     img: "/b5.svg",
     spareImg: "/grid.svg",
   },
@@ -63,7 +65,8 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center text-white",
+    titleClassName:
+      "justify-center md:max-w-full max-w-60 text-center text-white",
     img: "",
     spareImg: "",
   },
@@ -75,7 +78,13 @@ export const projects = [
     title: "ML Customer Churn Prediction",
     des: "Machine learning model to predict customer churn for financial institutions.",
     img: "/churn_thumbnail.jpg",
-    iconLists: ["/python.svg", "/pandas.svg", "/openai.svg", "/three.svg", "/gsap.svg"],
+    iconLists: [
+      "/python.svg",
+      "/pandas.svg",
+      "/openai.svg",
+      "/three.svg",
+      "/gsap.svg",
+    ],
     link: "https://customer-churn-ml-stone.streamlit.app/",
   },
   {
@@ -83,26 +92,31 @@ export const projects = [
     title: "IntelliDrive - AI Storage",
     des: "Storing everything for you and your academic needs. All in one place, supercharged by AI.",
     img: "/intellidrive.png",
-    iconLists: ["/next.svg", "re.svg", "/tail.svg", "/ts.svg",  "/c.svg"],
+    iconLists: ["/next.svg", "re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "https://intellidrive.xyz",
   },
   {
     id: 3,
-    title: "SASI Store",
-    des: "My online merchandise store to raise funds for various causes my friends and I care about.",
-    img: "/sasi_store_front.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://store.stonewerner.com",
+    title: "Discord Clone",
+    des: "Discord clone with real-time video chat built with Next.js and Convex.",
+    img: "/discord_thumbnail.jpg",
+    iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/stream.svg", "/c.svg"],
+    link: "https://harmony.stonewerner.com",
   },
   {
     id: 4,
-    title: "AI Rate My Professor",
-    des: "RAG-powered AI chatbot that allows users to query any information about their school's professors and courses.",
-    img: "/rmp.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/stonewerner/rag-rmp",
+    title: "ML Brain Tumor Classification",
+    des: "Machine learning model to classify brain tumors from MRI scans.",
+    img: "/tumor_thumbnail.jpg",
+    iconLists: [
+      "/python.svg",
+      "/pandas.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/c.svg",
+    ],
+    link: "https://brain-tumor-ml-stone.streamlit.app/",
   },
-  
 ];
 
 export const testimonials = [
