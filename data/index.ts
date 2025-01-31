@@ -208,9 +208,9 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Software Engineering Fellow",
+    title: "Software Engineering Resident",
     subtitle: "Headstarter AI",
-    desc: "Developed 6 AI focused projects using new tools such as Pinecone, OpenAI API, and Firebase.",
+    desc: "Developed 9 AI focused projects using new tools such as Pinecone, OpenAI API, and Firebase.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
