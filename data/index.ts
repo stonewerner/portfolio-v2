@@ -206,9 +206,9 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineer, Backend",
-    subtitle: "Texas Comptroller of Public Accounts",
-    desc: "Building the backend for web applications using Java and Spring Boot.",
+    title: "Software Engineer, Full Stack",
+    subtitle: "Ragie AI",
+    desc: "Building RAG as a Service. Ragie streamlines ingestion, chunking, and multimodal indexing of structured and unstructured data.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
