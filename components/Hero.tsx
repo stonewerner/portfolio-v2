@@ -58,7 +58,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white-100">
-            Hi! I&apos;m Stone, a Software Engineer based in Austin, TX.
+            Hi! I&apos;m Stone, a Software Engineer based in Los Angeles.
           </p>
 
           <a href="#about">
