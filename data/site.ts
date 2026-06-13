@@ -10,8 +10,8 @@ export const site = {
     tiktok: "https://www.tiktok.com/@stone.werner",
     linkedin: "https://www.linkedin.com/in/stonewerner",
     github: "https://github.com/stonewerner",
-    bookCall: "https://cal.com/stonewerner",
-    resume: "/resume.pdf",
+    bookCall: "https://cal.com/stonewerner/30min",
+    resume: "/Stone_Werner_Resume.pdf",
   },
 } as const;
 
