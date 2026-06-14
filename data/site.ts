@@ -50,7 +50,7 @@ export const workItems = [
     title: "Basechat",
     description:
       "Multi-tenant chatbot using RAG to let organizations talk to their own knowledge base.",
-    href: "https://github.com/stonewerner/basechat",
+    href: "https://github.com/ragieai/basechat",
   },
 ] as const;
 
