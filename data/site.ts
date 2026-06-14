@@ -38,13 +38,13 @@ export const workItems = [
   {
     title: "CodeAIDE",
     description: "AI-powered online IDE for learning, debugging, and shipping faster.",
-    href: "https://code-aide.vercel.app/",
+    href: "https://github.com/stonewerner/CodeAIDE",
   },
   {
     title: "IntelliDrive",
     description:
       "AI search over your notes and course materials — your knowledge base, instantly accessible.",
-    href: "https://intellidrive.xyz",
+    href: "https://github.com/stonewerner/IntelliDrive",
   },
   {
     title: "Basechat",

@@ -7,6 +7,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: `${site.name} — Software Engineer`,
   description: site.tagline,
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: site.name,
     description: site.tagline,
