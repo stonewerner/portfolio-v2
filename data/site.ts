@@ -76,17 +76,17 @@ export const reelLinks = [
 
 export const experienceItems = [
   {
-    role: "Software Engineer",
+    role: "Software Engineer, Full Stack",
     company: "Maintouch",
-    period: "2024 — present",
+    period: "November 2025 — present",
     description: "Building AI-powered SEO and search automation for B2B.",
   },
   {
-    role: "Software Engineering Resident",
-    company: "Headstarter AI",
-    period: "2024",
+    role: "Software Engineer, Full Stack",
+    company: "Ragie AI",
+    period: "March 2025 — November 2025",
     description:
-      "Built 9 AI projects — RAG pipelines, agents, and production patterns with OpenAI and vector DBs.",
+      "Built agentic retrieval, billing, and core product for Base Chat — a RAG platform for talking to your knowledge base.",
   },
   {
     role: "Co-founder, CTO",
@@ -96,9 +96,9 @@ export const experienceItems = [
       "Co-founded an e-commerce store to raise funds for causes we cared about. Built and shipped the platform.",
   },
   {
-    role: "Freelance Developer",
+    role: "Software Engineer, Freelance",
     company: "Self-employed",
-    period: "2022 — 2024",
+    period: "July 2023 — present",
     description:
       "Websites and products for businesses — from idea to deployed, production-ready software.",
   },
