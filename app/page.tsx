@@ -1,33 +1,29 @@
-"use client";
-
-import { navItems } from "@/data";
-
-import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
-import Footer from "@/components/Footer";
-import Clients from "@/components/Clients";
-import Approach from "@/components/Approach";
+import About from "@/components/About";
+import BookCall from "@/components/BookCall";
+import Contact from "@/components/Contact";
+import ContentSection from "@/components/Content";
 import Experience from "@/components/Experience";
-import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import Education from "@/components/Education";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import MobileBar from "@/components/MobileBar";
+import Nav from "@/components/Nav";
+import Work from "@/components/Work";
 
-const Home = () => {
+export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <link rel="icon" href="/favicon.ico" sizes="any" />
-      <div className="max-w-7xl w-full">
-        <FloatingNav navItems={navItems} />
+    <>
+      <Nav />
+      <main className="mx-auto max-w-content px-6 md:px-8">
         <Hero />
-        <Grid />
-        <RecentProjects />
-        <Clients />
+        <About />
+        <Work />
+        <ContentSection />
         <Experience />
-        <Education />
+        <BookCall />
+        <Contact />
         <Footer />
-      </div>
-    </main>
+      </main>
+      <MobileBar />
+    </>
   );
-};
-
-export default Home;
+}
