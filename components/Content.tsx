@@ -27,7 +27,9 @@ export default function ContentSection() {
               rel="noopener noreferrer"
               className="group flex items-center justify-between gap-4 py-5 transition-opacity hover:opacity-80"
             >
-              <span className="text-[15px] text-link">{reel.title}</span>
+              <span className="text-[15px] text-blue-600 underline underline-offset-4">
+                {reel.title}
+              </span>
               <span className="shrink-0 font-mono text-xs text-muted">
                 {reel.platform} →
               </span>

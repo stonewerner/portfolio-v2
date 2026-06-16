@@ -1,6 +1,27 @@
-import { aboutPoints, personalityLine } from "@/data/site";
+import { Fragment } from "react";
+
+import { aboutPoints, personalityLine, site } from "@/data/site";
 
 import SectionLabel from "./SectionLabel";
+
+function renderPoint(point: string) {
+  const parts = point.split("Maintouch");
+  return parts.map((part, i) => (
+    <Fragment key={i}>
+      {part}
+      {i < parts.length - 1 && (
+        <a
+          href={site.links.maintouch}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline underline-offset-4 transition-opacity hover:opacity-80"
+        >
+          Maintouch
+        </a>
+      )}
+    </Fragment>
+  ));
+}
 
 export default function About() {
   return (
@@ -12,7 +33,7 @@ export default function About() {
             key={point}
             className="text-[16px] leading-relaxed text-foreground"
           >
-            {point}
+            {renderPoint(point)}
           </li>
         ))}
       </ul>

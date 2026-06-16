@@ -1,17 +1,18 @@
 export const site = {
   name: "Stone Werner",
   tagline:
-    "Building at the intersection of AI, startups, and how people win online.",
+    "Software engineer working in AI, startups, and online media.",
   meta: "Software engineer · NYC · UC Berkeley CS",
   email: "hello@stonewerner.com",
-  photo: "/stone.jpg",
+  photo: "/blue_shirt_square.png",
   links: {
     instagram: "https://www.instagram.com/stone.werner/",
-    tiktok: "https://www.tiktok.com/@stone.werner",
+    tiktok: "https://www.tiktok.com/@stonewerner",
     linkedin: "https://www.linkedin.com/in/stonewerner",
     github: "https://github.com/stonewerner",
     bookCall: "https://cal.com/stonewerner/30min",
     resume: "/Stone_Werner_Resume.pdf",
+    maintouch: "https://www.maintouch.com/",
   },
 } as const;
 
@@ -24,32 +25,32 @@ export const navItems = [
 ] as const;
 
 export const aboutPoints = [
-  "Full-stack software engineer building AI-powered products in NYC. Currently at Maintouch.",
-  "CS from UC Berkeley — foundation in AI, systems, and shipping real software.",
-  "Side projects before and alongside the job: AI dev tools and products people actually use.",
-  "Co-founded The SASI Store and shipped freelance products for businesses that needed more than a template.",
-  "Creating content on tech, startups, AI, VC, personal finance, and fitness on Instagram and TikTok.",
+  "Full-stack software engineer based in NYC. Currently at Maintouch.",
+  "BS in Computer Science from UC Berkeley. Focus areas: AI and systems.",
+  "Develops AI developer tools and applications as independent projects.",
+  "Co-founded The SASI Store and delivered freelance software for businesses.",
+  "Creating content on technology, startups, AI, VC, personal finance, and fitness on Instagram and TikTok.",
 ] as const;
 
 export const personalityLine =
-  "When I'm not building, you'll find me surfing, playing beach volleyball, or in the gym.";
+  "Outside of work: surfing, beach volleyball, and weight training.";
 
 export const workItems = [
   {
     title: "CodeAIDE",
-    description: "AI-powered online IDE for learning, debugging, and shipping faster.",
+    description: "AI-powered online IDE for learning, debugging, and code execution.",
     href: "https://github.com/stonewerner/CodeAIDE",
   },
   {
     title: "IntelliDrive",
     description:
-      "AI search over your notes and course materials — your knowledge base, instantly accessible.",
+      "AI search over notes and course materials. Provides retrieval across a personal knowledge base.",
     href: "https://github.com/stonewerner/IntelliDrive",
   },
   {
     title: "Basechat",
     description:
-      "Multi-tenant chatbot using RAG to let organizations talk to their own knowledge base.",
+      "Multi-tenant chatbot using RAG to query organizational knowledge bases.",
     href: "https://github.com/ragieai/basechat",
   },
 ] as const;
@@ -63,14 +64,14 @@ export const contentPillars = [
 
 export const reelLinks = [
   {
-    title: "Follow for tech, startups, and builder content",
+    title: "Content on technology, startups, and software development",
     platform: "Instagram",
     href: "https://www.instagram.com/stone.werner/",
   },
   {
     title: "More content coming soon",
     platform: "TikTok",
-    href: "https://www.tiktok.com/@stone.werner",
+    href: "https://www.tiktok.com/@stonewerner",
   },
 ] as const;
 
@@ -107,7 +108,7 @@ export const experienceItems = [
 export const bookCallCopy = {
   title: "Book a call",
   description:
-    "Paid 1:1 calls on whatever you want to talk about — career, startups, AI, building online, or thinking out loud with someone in the arena.",
+    "Paid 1:1 calls on career, startups, AI, and building online.",
   cta: "Book a call",
 } as const;
 
