@@ -1,12 +1,15 @@
 import { site } from "@/data/site";
 
-import Avatar from "./Avatar";
-
 export default function Hero() {
   return (
     <section className="pb-20 pt-12 md:pt-16">
       <div className="flex items-start gap-5">
-        <Avatar src={site.photo} alt={site.name} initials="SW" />
+        <div
+          className="flex h-20 w-20 shrink-0 items-center justify-center rounded-xl border border-border bg-surface font-mono text-lg font-medium text-muted"
+          aria-hidden
+        >
+          SW
+        </div>
         <div className="min-w-0 pt-1">
           <h1 className="text-[32px] font-semibold leading-tight tracking-tight text-foreground md:text-[40px]">
             {site.name}
