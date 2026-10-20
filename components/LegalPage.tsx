@@ -2,7 +2,7 @@ import { site } from "@/data/site";
 
 type LegalPageProps = {
   title: string;
-  updated: string;
+  updated?: string;
   children: React.ReactNode;
 };
 
@@ -24,7 +24,9 @@ export default function LegalPage({ title, updated, children }: LegalPageProps) 
           TikTok publishing tool
         </p>
         <h1 className="text-3xl font-semibold tracking-tight">{title}</h1>
-        <p className="mt-2 font-mono text-xs text-muted">Last updated {updated}</p>
+        {updated && (
+          <p className="mt-2 font-mono text-xs text-muted">Last updated {updated}</p>
+        )}
         <div className="mt-10 space-y-8 text-[15px] leading-relaxed text-foreground">
           {children}
         </div>
